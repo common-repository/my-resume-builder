@@ -1,0 +1,47 @@
+h1:not(.site-title):before, h2:before{
+    display:none !important;
+}
+
+.name-block h1{
+    font-family: fantasy !important;
+    font-weight: 100 !important;
+    color:#565656 !important; 
+    text-transform: uppercase !important;
+    letter-spacing: 3px !important;
+}
+
+.section-title{
+    color:#565656 !important;
+}
+
+section{
+    padding: 1em !important;
+}
+
+.sidebar-container{
+    font-size: 0.75em !important;
+    color: #fff !important;
+    position: sticky !important;
+    top: 0 !important;
+}
+
+.sidebar-container p{
+    color: #fff !important;
+}
+
+.history-block, .skills-block, .projects-block > p,span{
+    font-size: 1vw !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    padding:0.2em 0 0 !important;
+}
+h1{
+     font-size: 3vw !important;
+ }
+h3{
+    font-size: 2vw !important;
+}
+ h4{
+     font-size: 1.5vw !important;
+ }

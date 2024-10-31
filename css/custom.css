@@ -1,0 +1,74 @@
+#content-block label{
+    min-width: 10em;
+}
+
+.fields-section{
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #dedede; 
+    padding:3em 1em 1em 1em;
+    margin-top: 1em;
+}
+
+.field-row{
+    padding-bottom:1em;
+    text-align: center;
+}
+
+#mrb_exp_box .hndle.ui-sortable-handle{
+    text-align: center !important;
+    background: #396fa9;
+    color: #fff;
+    line-height: 2em;
+}
+
+
+#content-block .heading{
+    color:#396fa9 !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #396fa9 !important;
+    margin: 0.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-pills .nav-link{
+    width:15em;
+}
+
+.nav-link{
+    color: #396fa9;
+    font-weight: bold;
+}
+
+.delete_button{
+    color: #396fa9;
+    font-size: 1.5em;
+    position:absolute; 
+    cursor:pointer; 
+    top:5px; 
+    right:10px;
+    padding:0.5em;
+}
+
+.delete_button:hover{
+    color:#f00;
+}
+
+.handle{
+    color: #396fa9;
+    font-size: 1.5em;
+    position:absolute; 
+    /* cursor:pointer;  */
+    top:5px; 
+    left:10px;
+    padding:0.5em;
+    cursor: move;
+}
+
+.tox-notification .mce-notification {display: none !important;}
+.tox .tox-notification{
+    display: none !important;
+}
